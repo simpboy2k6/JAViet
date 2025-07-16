@@ -1,0 +1,3 @@
+folder này sẽ lưu các file có định dạng ejs
+khi dùng các lệnh javascrpit trong file ejs thì phải dùng trong dấu <%....%> (nên dùng trong một dòng)
+còn muốn in ra giá trị thì <%= 'tên_biến' %>   (giá trị ở đây là giá trị truyền render vào)

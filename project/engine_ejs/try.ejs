@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html lang="vn">
+    <head>
+        <title>
+            Try input
+        </title>
+        <body>
+            <form action="/ab" method="GET">
+                <label for="name">Nhap ten vao</label>
+                <input type="text" id="name" name="name"><br>
+                <input type="submit" value="Gửi">
+            </form>
+
+            <% if(typeof name !== 'undefined') {%>             
+                <p>Tên của mày là: <%= name%></p>
+            <% } %>
+        </body>
+    </head>
+</html>
