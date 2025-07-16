@@ -2,10 +2,10 @@
 
 const path = require('path');
 
-console.log('file:',path.join('./project','engine_ejs'));
+console.log('file:',path.join(__dirname,'../engine_ejs'));
 const engineconfig = (app)=>{
     app.set('view engine','ejs');
-    app.set('views',path.join('./project','engine_ejs'));
+    app.set('views',path.join(__dirname,'../engine_ejs'));
 }
 
 module.exports = engineconfig;//exports phải có 's'
